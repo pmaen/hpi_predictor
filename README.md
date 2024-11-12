@@ -48,6 +48,16 @@ After this, Zenity interface will be prompted and the user will be asked to choo
 4) The False discovery rate (this is a measure of astringency, the lower the chosen value, the more astringent the analysis will be)
 5) The percentage of physicochemical models that have to agree on a prediction in order to report it in the consensus interactome
 
+#### CUSTOM FILES
+If you want to use custom files, please ensure they contain the following columns (with the exact strings as headers) in order:
+1) `Entry`
+2) `Organism`
+3) `Organism ID`
+4) `Length`
+5) `Sequence`
+
+The columns have to be separated by tab stops.
+
 ### LICENSE
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
